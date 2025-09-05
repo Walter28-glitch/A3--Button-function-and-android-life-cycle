@@ -31,7 +31,7 @@ public class LoginActivity extends AppCompatActivity {
 
         registerTextView.setOnClickListener(v -> {
             Toast.makeText(this, "Register clicked!", Toast.LENGTH_SHORT).show();
-            // You can add registration activity navigation here
+
         });
     }
 
@@ -52,4 +52,5 @@ public class LoginActivity extends AppCompatActivity {
         super.onPause();
         Toast.makeText(this, "onPause() called", Toast.LENGTH_SHORT).show();
     }
+
 }
